@@ -29,15 +29,17 @@
 
  	.ba-row{
  		display: flex;
- 		justify-content: space-between;
+ 		justify-content: space-around;
  		text-align: center;
  		align-items: center;
  		height: 100%;
 
  		.ba-cup{
-
  			border-radius: 2px;
  			background-color: #fff;
+-webkit-box-shadow: -4px 4px 8px 1px rgba(0,0,0,0.24);
+-moz-box-shadow: -4px 4px 8px 1px rgba(0,0,0,0.24);
+box-shadow: -4px 4px 8px 1px rgba(0,0,0,0.24);
  			// padding: 40px 0;
  			&__buks{
  				display: block;
